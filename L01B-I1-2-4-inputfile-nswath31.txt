@@ -1,0 +1,31 @@
+# Flight Data Directory and file
+FlightDirectory, 		/Volumes/Data/Flight-Data/20201018/
+Tstart,				09;31;00
+Tend,				09;39;20
+NViewport,                      9
+Viewport,                       1;2;3;4;5;6;7;8;9
+# Set preferred Wavelengths
+NWavelength_dolp,		9
+Wavelength_dolp,		430;470;525;550;575;600;650;700;750; #[nm]			
+manywavelengths_dolp,           False
+Wrange_dolp,                    400;800;101
+NWavelength_radi,		5
+Wavelength_radi,		410;470;555;670;750;  #[nm]			
+manywavelengths_radi,           True
+Wrange_radi,			400;800;101		
+Radiance_only,			True
+#
+# CKD Directories:
+CKD_Directory,			/Volumes/Data/SPEX-airborne/CKD-2016/NSwath31-kw1/
+CKD_Darkfile,			/20160205-211225-images.h5
+CKD_LOS_Subdir,			./
+CKD_LOS_File,                   /CKD-LOS-Nswath31.h5
+CKD_Wavelength_Subdir,		./
+CKD_Wavelength_File,		CKD-WavelengthPolyCoefs-2016-NSwath31-kw1.h5
+CKD_Rad_Subdir,	 	        ./
+CKD_Rad_File,		        CKD-Radiometric-2016-Nswath31-kw1.h5
+CKD_DoLP_File,                  CKD-DoLP-2016-Nswath31-kw1.h5
+CKD_Mij_File,		        CKD-Mij-2016-Nswath31-kw1.h5
+CKD_Sol_File,		        sao2010.solref.converted.txt
+# Output file, Level 1B. Filename is assigned in by ReadL01BInputfile()
+L1B_Dir, 			/Volumes/Data/SPEX-airborne/L1B/
